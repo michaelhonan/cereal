@@ -181,7 +181,7 @@ struct CarState {
   rightBlindspot @34 :Bool; # Is there something blocking the right lane change
 
   # car lights
-  lowbeam @37 :Bool # Are low beams on
+  lowbeam @37 :Bool; # Are low beams on
 
   struct WheelSpeeds {
     # optional wheel speeds
